@@ -21,7 +21,7 @@ wordpress_sites:
     system_cron: true
     env:
       wp_home: http://jackalope.dev
-      wp_siteurl: http://jackalope.dev/wp # http://jackalope.dev/wp/wp-login.php to login
+      wp_siteurl: http://jackalope.dev/wp # "/wp/wp-login.php" to login
       wp_env: development
       db_name: jackalope_dev
       db_user: jackalope_dbuser
