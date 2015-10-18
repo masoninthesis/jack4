@@ -1,15 +1,15 @@
 # Documentation: https://github.com/roots/trellis#wordpress-sites
 wordpress_sites:
-  example.com:
+  jackalopemedia.com:
     site_hosts:
-      - example.dev
+      - jackalope.dev
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:roots/bedrock.git
     site_install: true
-    site_title: Example Site
+    site_title: Jackalope Media
     admin_user: admin
     admin_password: admin
-    admin_email: admin@example.dev
+    admin_email: admin@jackalope.dev
     multisite:
       enabled: false
       subdomains: false
@@ -20,9 +20,9 @@ wordpress_sites:
       duration: 30s
     system_cron: true
     env:
-      wp_home: http://example.dev
-      wp_siteurl: http://example.dev/wp
+      wp_home: http://jackalope.dev
+      wp_siteurl: http://jackalope.dev/wp
       wp_env: development
-      db_name: example_dev
-      db_user: example_dbuser
-      db_password: example_dbpassword
+      db_name: jackalope_dev
+      db_user: jackalope_dbuser
+      db_password: jackalope_dbpassword
