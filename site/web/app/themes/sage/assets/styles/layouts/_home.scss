@@ -1,0 +1,30 @@
+#hero {
+  .a-b-screens {
+    margin-top: 136px;
+  }
+  .guarantee {
+    margin-top: 136px;
+    p {
+      margin-top: 20px;
+    }
+  }
+  .clients {
+    p {
+      color: $light-grey;
+      margin-top: 100px;
+    }
+    svg {
+      margin-top: 40px;
+    }
+  }
+}
+
+#section1 {
+  background-color: $brand-primary;
+  h2 {
+    color: white;
+	  font-size: 24px;
+	  line-height: 30px;
+    padding: 75px 0 36px;
+  }
+}
