@@ -66,14 +66,14 @@
   <!--           -->
   <div class="phase-two">
     <div class="text-center">
-      <svg class="ph1-schedule" width="771" height="271"><?php get_template_part( 'assets/svg/inline', 'phase-one.svg' ); ?></svg>
+      <svg class="ph1-schedule" width="771" height="271"><?php get_template_part( 'assets/svg/inline', 'phase-two.svg' ); ?></svg>
     </div>
     <div class="container">
       <p>Once you’ve made it to Phase Two, you unlock our custom built Wordpress theme. The testing never stops, but now that we’ve optimized the content and design, it’s time to expand the backend– giving you the most powerful CMS in the world.</p>
       <p>The key is to do this without sacrificing load speed– <strong>this is our specialty.</strong></p>
       <h5 class="3pt">Additional Tools:</h5>
       <p class="p-sm">Wordpress, Bedrock, Sage, Trellis (Vagrant + Ansible), and Gravity Forms</p>
-      <svg class="tools" width="758" height="152"><?php get_template_part( 'assets/svg/inline', 'phase-one-tools.svg' ); ?></svg>
+      <svg class="tools" width="758" height="152"><?php get_template_part( 'assets/svg/inline', 'phase-two-tools.svg' ); ?></svg>
     </div>
 
     <div class="" id="phase-one-bullets">
@@ -81,7 +81,7 @@
         <div class="row top-row">
           <div class="bullets col-sm-6">
             <div class="col-xs-2">
-              <svg class="calendar" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'calendar.svg' ); ?></svg>
+              <svg class="sage" width="38" height="38"><?php get_template_part( 'assets/svg/inline', 'sage.svg' ); ?></svg>
             </div>
             <div class="col-xs-10">
               <h5>Custom Wordpress Theme</h5>
@@ -90,7 +90,7 @@
           </div>
           <div class="bullets col-sm-6">
             <div class="col-xs-2">
-              <svg class="long-short" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'long-short.svg' ); ?></svg>
+              <svg class="load-speed" width="38" height="38"><?php get_template_part( 'assets/svg/inline', 'load-speed.svg' ); ?></svg>
             </div>
             <div class="col-xs-10">
               <h5>Increased Load Speed</h5>
@@ -101,7 +101,7 @@
         <div class="row bottom-row">
           <div class="bullets col-sm-6">
             <div class="col-xs-2">
-              <svg class="user-centered" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'user-center.svg' ); ?></svg>
+              <svg class="plugins" width="38" height="38"><?php get_template_part( 'assets/svg/inline', 'plugins.svg' ); ?></svg>
             </div>
             <div class="col-xs-10">
               <h5>Access to Powerful WP Plugins</h5>
@@ -110,7 +110,7 @@
           </div>
           <div class="bullets col-sm-6">
             <div class="col-xs-2">
-              <svg class="variations" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'variations.svg' ); ?></svg>
+              <svg class="db-backup" width="38" height="38"><?php get_template_part( 'assets/svg/inline', 'db-backup.svg' ); ?></svg>
             </div>
             <div class="col-xs-10">
               <h5>Automatic Database Backup</h5>
@@ -127,20 +127,23 @@
   <!--           -->
   <div class="phase-three">
     <div class="text-center">
-      <svg class="ph1-schedule" width="771" height="271"><?php get_template_part( 'assets/svg/inline', 'phase-one.svg' ); ?></svg>
+      <svg class="ph1-schedule" width="771" height="271"><?php get_template_part( 'assets/svg/inline', 'phase-three.svg' ); ?></svg>
     </div>
     <div class="container">
       <p>Split-testing and backend optimization continue, but Phase 3 is all about the power of content marketing. During Phase 3 we will produce 1 blog post, 1 video, 1 podcast episode, or 1 info-graphic for you a week.</p>
       <p><strong>Now, it’s time to build some content.</strong></p>
       <h2><strong>We guarantee 10k+ visitors per month.</strong></h2>
+      <div class="text-center">
+        <svg class="tools" width="386" height="282"><?php get_template_part( 'assets/svg/inline', 'funnel.svg' ); ?></svg>
+      </div>
     </div>
 
-    <div class="" id="phase-one-bullets">
+    <div class="" id="phase-three-bullets">
       <div class="container">
         <div class="row top-row">
           <div class="bullets col-sm-6">
             <div class="col-xs-2">
-              <svg class="calendar" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'calendar.svg' ); ?></svg>
+              <svg class="blog-post" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'blog-post.svg' ); ?></svg>
             </div>
             <div class="col-xs-10">
               <h5>One 750+ Word Blog Post/wk</h5>
@@ -149,7 +152,7 @@
           </div>
           <div class="bullets col-sm-6">
             <div class="col-xs-2">
-              <svg class="long-short" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'long-short.svg' ); ?></svg>
+              <svg class="video" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'video.svg' ); ?></svg>
             </div>
             <div class="col-xs-10">
               <h5>One 30+ Second Video/wk</h5>
@@ -160,7 +163,7 @@
         <div class="row bottom-row">
           <div class="bullets col-sm-6">
             <div class="col-xs-2">
-              <svg class="user-centered" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'user-center.svg' ); ?></svg>
+              <svg class="podcast" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'podcast.svg' ); ?></svg>
             </div>
             <div class="col-xs-10">
               <h5>One 2+ Minute Podcast Ep/wk</h5>
@@ -169,7 +172,7 @@
           </div>
           <div class="bullets col-sm-6">
             <div class="col-xs-2">
-              <svg class="variations" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'variations.svg' ); ?></svg>
+              <svg class="infographic" width="34" height="36"><?php get_template_part( 'assets/svg/inline', 'infographic.svg' ); ?></svg>
             </div>
             <div class="col-xs-10">
               <h5>One Infographic/wk</h5>

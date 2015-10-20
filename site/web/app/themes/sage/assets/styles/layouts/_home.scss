@@ -81,6 +81,9 @@
     }
     .tools {
       margin-bottom: 78px;
+      .st2 {
+        fill: $medium-grey;
+      }
     }
     .jack-btn1 {
         display: block;
@@ -171,21 +174,21 @@
         margin: 66px 0 100px;
       }
       .bullets {
-        .calendar {
+        .sage {
           .st0 {
             fill: $brand-purple;
             vertical-align: top;
           }
         }
-        .long-short {
+        .load-speed {
           .st0 {
-            fill: none;
+            fill: $brand-purple;
           }
           .st1 {
             fill: $brand-purple;
           }
         }
-        .user-centered, .variations {
+        .plugins, .db-backup {
           .st0 {
             fill: $brand-purple;
           }
@@ -214,7 +217,7 @@
     }
     .ph1-schedule {
       margin-top: 84px;
-      .st0 {
+      path {
         fill: $brand-blue;
       }
       .st1 {
@@ -232,16 +235,9 @@
       }
     }
     h2 {
-      padding-top: 83px;
+      padding: 82px 0 82px;
     }
-    .tools {
-      margin-bottom: 78px;
-    }
-    .jack-btn1 {
-        display: block;
-        margin: auto;
-    }
-    #phase-one-bullets {
+    #phase-three-bullets {
       background-color: $light-grey-bg;
       margin-top: 62px;
       .top-row {
@@ -251,21 +247,21 @@
         margin: 66px 0 100px;
       }
       .bullets {
-        .calendar {
+        .blog-post {
           .st0 {
             fill: $brand-blue;
             vertical-align: top;
           }
         }
-        .long-short {
+        .video {
           .st0 {
-            fill: none;
+            fill: $brand-blue;
           }
           .st1 {
             fill: $brand-blue;
           }
         }
-        .user-centered, .variations {
+        .podcast, .infographic {
           .st0 {
             fill: $brand-blue;
           }
