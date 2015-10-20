@@ -22,6 +22,7 @@ use Roots\Sage\Wrapper;
     <?php get_template_part('templates/hero'); ?>
 
     <?php get_template_part('templates/section1'); ?>
+    <?php get_template_part('templates/section2'); ?>
 
     <div class="wrap container" role="document">
       <div class="content row">

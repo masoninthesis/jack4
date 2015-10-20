@@ -216,15 +216,17 @@ p {
 /* Buttons */
 // ------------/
 
-/* .jack-btn1 {
+.jack-btn1 {
     color: $medium-grey;
     border: 1px solid;
-    border-color: .primary-gradient-stroke
-    border-radius: 25px;
-     background: none;
+    border-color: black;
+    border-radius: 12px;
+    background: none;
     text-align: center;
+    display: block;
+    margin: auto;
 }
-
+/*
 .jack-btn2 {
     background-color: white;
     width: 66%;
