@@ -1,11 +1,20 @@
 #hero {
   .a-b-screens {
     margin-top: 136px;
+    .st0 {
+      fill: $dark-grey;
+    }
+    .st1 {
+      fill: $brand-primary;
+    }
   }
   .guarantee {
     margin-top: 136px;
     p {
       margin-top: 20px;
+    }
+    .st0 {
+      fill: $dark-grey;
     }
   }
   .clients {
@@ -15,6 +24,9 @@
     }
     svg {
       margin-top: 40px;
+    }
+    .st0 {
+      fill: white;
     }
   }
 }
@@ -26,5 +38,36 @@
 	  font-size: 24px;
 	  line-height: 30px;
     padding: 75px 0 36px;
+  }
+  svg {
+    margin-bottom: 84px;
+  }
+}
+
+#section2 {
+  .phase-one {
+    padding-top: 80px;
+    h3 {
+      font-weight: lighter !important;
+      u {
+        color: $brand-primary;
+      }
+    }
+    svg {
+      margin-top: 84px;
+    }
+    .container {
+      width: 800px;
+    }
+    p {
+      padding-top: 30px;
+    }
+    h5 {
+      padding-top: 44px;
+      color: $brand-magento;
+    }
+    ul li {
+      display: inline-block;
+    }
   }
 }

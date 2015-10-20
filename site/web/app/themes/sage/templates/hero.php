@@ -5,7 +5,7 @@
   <h1>Web Optimization Testing</h1>
   <div class="guarantee text-center">
     <svg width="40" height="40"><?php get_template_part( 'assets/svg/inline', 'plus-sign.svg' ); ?></svg>
-    <h2>Increase revenue,</h2>
+    <h2>Increased revenue,</h2>
     <h4>or your money back.</h4>
     <p>If we fail to force-multiply your revenue <br>we’ll simply refund you.</p>
   </div>
