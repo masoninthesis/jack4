@@ -52,6 +52,7 @@
 }
 
 #section2 {
+/* Phase One */
   .phase-one {
     padding-top: 80px;
     h3 {
@@ -61,6 +62,9 @@
     }
     .ph1-schedule {
       margin-top: 84px;
+      .st0 {
+        fill: $brand-magento;
+      }
       .st1 {
         stroke: none;
       }
@@ -74,9 +78,6 @@
     h5 {
       padding-top: 44px;
       color: $brand-magento;
-    }
-    ul li {
-      display: inline-block;
     }
     .tools {
       margin-bottom: 78px;
@@ -95,9 +96,24 @@
         margin: 66px 0 100px;
       }
       .bullets {
-        .st0 {
-          fill: $brand-magento;
-          vertical-align: top;
+        .calendar {
+          .st0 {
+            fill: $brand-magento;
+            vertical-align: top;
+          }
+        }
+        .long-short {
+          .st0 {
+            fill: none;
+          }
+          .st1 {
+            fill: $brand-magento;
+          }
+        }
+        .user-centered, .variations {
+          .st0 {
+            fill: $brand-magento;
+          }
         }
         svg {
           margin-top: 8px;
@@ -114,7 +130,157 @@
   }
 
 
+/* Phase Two */
   .phase-two {
+    padding-top: 80px;
+    h3 {
+      font-weight: lighter !important;
+      color: $light-grey;
+      margin-top: -8px;
+    }
+    .ph1-schedule {
+      margin-top: 84px;
+      .st0 {
+        fill: $brand-purple;
+      }
+      .st1 {
+        stroke: none;
+      }
+    }
+    .container {
+      width: 800px;
+    }
+    p {
+      padding-top: 30px;
+    }
+    h5 {
+      padding-top: 44px;
+      color: $brand-purple;
+    }
+    .jack-btn1 {
+        display: block;
+        margin: auto;
+    }
+    #phase-one-bullets {
+      background-color: $light-grey-bg;
+      margin-top: 62px;
+      .top-row {
+        margin-top: 120px;
+      }
+      .bottom-row {
+        margin: 66px 0 100px;
+      }
+      .bullets {
+        .calendar {
+          .st0 {
+            fill: $brand-purple;
+            vertical-align: top;
+          }
+        }
+        .long-short {
+          .st0 {
+            fill: none;
+          }
+          .st1 {
+            fill: $brand-purple;
+          }
+        }
+        .user-centered, .variations {
+          .st0 {
+            fill: $brand-purple;
+          }
+        }
+        svg {
+          margin-top: 8px;
+        }
+        h5 {
+          padding-top: 0px;
+        }
+        p {
+          font-size: 15px;
+          padding-top: 0px;
+        }
+      }
+    }
+  }
 
+/* Phase Three */
+  .phase-three {
+    padding-top: 80px;
+    h3 {
+      font-weight: lighter !important;
+      color: $light-grey;
+      margin-top: -8px;
+    }
+    .ph1-schedule {
+      margin-top: 84px;
+      .st0 {
+        fill: $brand-blue;
+      }
+      .st1 {
+        stroke: none;
+      }
+    }
+    .container {
+      width: 800px;
+    }
+    p {
+      padding-top: 30px;
+      strong {
+        color: $dark-grey;
+        padding: 0px;
+      }
+    }
+    h2 {
+      padding-top: 83px;
+    }
+    .tools {
+      margin-bottom: 78px;
+    }
+    .jack-btn1 {
+        display: block;
+        margin: auto;
+    }
+    #phase-one-bullets {
+      background-color: $light-grey-bg;
+      margin-top: 62px;
+      .top-row {
+        margin-top: 120px;
+      }
+      .bottom-row {
+        margin: 66px 0 100px;
+      }
+      .bullets {
+        .calendar {
+          .st0 {
+            fill: $brand-blue;
+            vertical-align: top;
+          }
+        }
+        .long-short {
+          .st0 {
+            fill: none;
+          }
+          .st1 {
+            fill: $brand-blue;
+          }
+        }
+        .user-centered, .variations {
+          .st0 {
+            fill: $brand-blue;
+          }
+        }
+        svg {
+          margin-top: 8px;
+        }
+        h5 {
+          padding-top: 0px;
+        }
+        p {
+          font-size: 15px;
+          padding-top: 0px;
+        }
+      }
+    }
   }
 }
