@@ -214,9 +214,22 @@ p {
   padding-top: 0px !important;
 }
 
+.p-md {
+  font-size: 15px;
+  line-height: 18px;
+  color: $light-grey;
+  padding-top: 18px;
+  text-align: center;
+}
+
 // ------------/
 /* Buttons */
 // ------------/
+
+a:focus, a:hover {
+    color: $brand-primary;
+    text-decoration: none;
+}
 
 .jack-btn1 {
     color: $medium-grey;
@@ -405,27 +418,4 @@ p {
 
 /* .jackalogo-foot {
   width: 50%;
-} */
-
-
-// ----------------------/
-/* Bootstrap Styles */
-// ----------------------/
-
-/* .panel-default {
-  height: 40px;
-  width: 66%;
-
-  .panel-heading {
-    color: $dark-grey;
-    background-color: #fff;
-    border-color: #ddd;
-    text-align: center;
-    font-family: 'Proxima Nova', $helvetica;
-    font-size: 18px;
-
-    .panel-title {
-      margin-top: 5px;
-    }
-  }
 } */

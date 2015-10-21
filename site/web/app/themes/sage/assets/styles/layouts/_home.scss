@@ -31,7 +31,9 @@
     }
   }
 }
-
+/* ......... */
+/* Section 1 */
+/* ......... */
 #section1 {
   background-color: $brand-primary;
   h2 {
@@ -50,7 +52,9 @@
     }
   }
 }
-
+/* ......... */
+/* Section 2 */
+/* ......... */
 #section2 {
 /* Phase One */
   .phase-one {
@@ -131,8 +135,6 @@
       }
     }
   }
-
-
 /* Phase Two */
   .phase-two {
     padding-top: 80px;
@@ -206,7 +208,6 @@
       }
     }
   }
-
 /* Phase Three */
   .phase-three {
     padding-top: 80px;
@@ -278,5 +279,38 @@
         }
       }
     }
+  }
+}
+
+#section3 {
+  margin-top: -20px;
+  #contact {
+    background-color: $brand-primary;
+    h2 {
+      font-weight: bold;
+      color: white;
+      padding-top: 46px;
+    }
+    h3 {
+      font-weight: lighter;
+      padding-bottom: 20px;
+    }
+    img {
+      margin-bottom: 30px;
+    }
+  }
+  p {
+    margin: 0;
+  }
+  .phone-number {
+    padding: 40px 0 40px;
+    font-size: 30px;
+    color: $light-grey;
+    span {
+      color: $dark-grey;
+    }
+  }
+  .container {
+    width: 600px;
   }
 }
