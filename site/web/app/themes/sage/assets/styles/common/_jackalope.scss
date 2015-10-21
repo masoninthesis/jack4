@@ -129,23 +129,21 @@ $input: #fffedf;
 // CSS Output:
  @font-face {
     font-family: "Proxima Nova";
-    src: url("../dist/fonts/ProximaNova-Light.eot?") format("eot"),
-         url("../dist/fonts/ProximaNova-Light.woff2") format("woff2"),
-         url("../dist/fonts/ProximaNova-Light.woff") format("woff"),
-         url("../dist/fonts/ProximaNova-Light.ttf") format("truetype"),
-         url("../dist/fonts/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
+    src: url("../../dist/fonts/ProximaNova-Light.eot?") format("eot"),
+         url("../../dist/fonts/ProximaNova-Light.woff") format("woff"),
+         url("../../dist/fonts/ProximaNova-Light.ttf") format("truetype"),
+         url("../../dist/fonts/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
 }
 // SCSS Input:
-/* @include font-face("Proxima Nova", ../dist/fonts/ProximaNova-Bold, bold); */
+/* @include font-face("Proxima Nova", ../../dist/fonts/ProximaNova-Bold, bold); */
 // CSS Output:
 @font-face {
     font-family: "Proxima Nova";
     font-weight: bold;
-    src: url("../dist/fonts/ProximaNova-Bold.eot?") format("eot"),
-         url("../dist/fonts/ProximaNova-Bold.woff2") format("woff2"),
-         url("../dist/fonts/ProximaNova-Bold.woff") format("woff"),
-         url("../dist/fonts/ProximaNova-Bold.ttf") format("truetype"),
-         url("../dist/fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+    src: url("../../dist/fonts/ProximaNova-Bold.eot?") format("eot"),
+         url("../../dist/fonts/ProximaNova-Bold.woff") format("woff"),
+         url("../../dist/fonts/ProximaNova-Bold.ttf") format("truetype"),
+         url("../../dist/fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
 }
 
 /* Typography */
