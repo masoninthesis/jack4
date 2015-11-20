@@ -40,3 +40,9 @@
   @extend .sr-only;
   @extend .sr-only-focusable;
 }
+
+// Gravity Forms Classes
+
+.gform_wrapper input.ginput_quantity {
+    display: inline-block;
+}
